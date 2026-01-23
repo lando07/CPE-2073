@@ -13,14 +13,14 @@
 #include <stdio.h>
 #include <math.h>
 
-void PrintHello(char* name);
-
-int main(void){
-    PrintHello("Bob");
-    return 0;
-}
-
-
+//Function to print "Hello, " followed by a name
 void PrintHello(char* name){
     printf("Hello, %s!", name);
 }
+
+//Main function. The program always starts here
+int main(void){
+    PrintHello("Landon"); //Here's my name!
+    return 0;
+}
+
