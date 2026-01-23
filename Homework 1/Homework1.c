@@ -15,7 +15,7 @@
 
 //Function to print "Hello, " followed by a name
 void PrintHello(char* name){
-    printf("Hello, %s!", name);
+    printf("Hello, %s!\n", name);
 }
 
 //Main function. The program always starts here
